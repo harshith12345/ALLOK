@@ -24,7 +24,6 @@ body {
 .HeaderLogo
 {
     float: left;
-    background-color: white;//remove afterwards
 }
 .Header-RightMenu
 {
@@ -72,4 +71,16 @@ body {
 .Header-RightMenu-Bottom
 {
     grid-column: 1 / span 2;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.Header-RightMenu-Bottom-Name
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    margin-right: 10px;
+    padding-top: 3px;
 }
