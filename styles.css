@@ -29,5 +29,47 @@ body {
 .Header-RightMenu
 {
     float: right;
-    background-color: white;//remove afterwards
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+
+}
+.Header-RightMenu-Top-1
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+
+}
+.Header-RightMenu-Top-2
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Header-RightMenu-Top-1-help
+{
+    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #bdc3c7;
+}
+.Header-RightMenu-Top-1-Logout
+{
+    font-family: Verdana, Geneva, sans-serif;
+    padding-left: 5px;
+    font-size: 11px;
+    color: #bdc3c7;
+}
+.Header-RightMenu-Top-1-Oblique
+{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    color: #bdc3c7;
+}
+.Header-RightMenu-Bottom
+{
+    grid-column: 1 / span 2;
 }
