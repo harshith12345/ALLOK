@@ -1,4 +1,33 @@
-body
+body {
+  background-color: #262d40;
+  border-top: 3px solid #ea8922;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.FullPage
 {
-    background-color: #
+    max-width: 960px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.Header
+{
+    height: 86px;
+
+
+}
+.HeaderLogo
+{
+    float: left;
+    background-color: white;//remove afterwards
+}
+.Header-RightMenu
+{
+    float: right;
+    background-color: white;//remove afterwards
 }
