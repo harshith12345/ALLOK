@@ -84,3 +84,51 @@ body {
     margin-right: 10px;
     padding-top: 3px;
 }
+
+.NavigationBar
+{
+    height: 45px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #e2e6ef;
+    column-width: 20px;
+}
+.NavigationBar-Menu1
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.NavigationBar-Menu1:default
+{
+    font-family: "Myriad-Pro";
+    font-size: 14px;
+    color: #1b3f75;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.NavigationBar-Menu1:hover
+{
+    font-family: "Myriad-Pro";
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #3d85c6;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.NavigationBar-Menu1-image1
+{
+    padding-left: 20px;
+}
+.NavigationBar-Menu1-text
+{
+    padding-right: 20px;
+}
+.NavigationBar-Menu1-image2
+{
+    padding-right: 20px;
+}
+
