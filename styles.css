@@ -85,38 +85,43 @@ body {
     padding-top: 3px;
 }
 
+.navbar
+{
+    background-color: #e2e6ef;
+    height: 45px;
+    width: 960px;
+}
 .NavigationBar
 {
     height: 45px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: #e2e6ef;
+    grid-template-columns: 209px 138px 176px 152px;
     column-width: 20px;
+    float: left;
 }
 .NavigationBar-Menu1
 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding-top: 10px;
-    padding-bottom: 10px;
+    border-right:2px solid #f1f3f7;
 
 }
+
 .NavigationBar-Menu1:default
 {
     font-family: "Myriad-Pro";
     font-size: 14px;
     color: #1b3f75;
     padding-top: 10px;
-    padding-bottom: 10px;
 }
 .NavigationBar-Menu1:hover
 {
     font-family: "Myriad-Pro";
-    font-size: 14px;
+    font-size: 16px;
     color: #ffffff;
     background-color: #3d85c6;
     padding-top: 10px;
-    padding-bottom: 10px;
 
 }
 .NavigationBar-Menu1-image1
@@ -126,6 +131,8 @@ body {
 .NavigationBar-Menu1-text
 {
     padding-right: 20px;
+    padding-left: 10px;
+
 }
 .NavigationBar-Menu1-image2
 {
