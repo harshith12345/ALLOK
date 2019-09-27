@@ -3,6 +3,54 @@
 <head>
     <title>ALLOK-SampleProject</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+       function OnHover1()
+        {
+           document.getElementById("menuimg11").src = "images/icon_centralinstance_onhover.png";
+            document.getElementById("menuimg12").src = "images/down_arrow_white.png";
+        }
+
+        function OnNoHover1()
+        {
+            document.getElementById("menuimg11").src = "images/icon_centralinstance.png";
+            document.getElementById("menuimg12").src = "images/down_arrow_blue.png";
+        }
+        function OnHover2()
+        {
+           document.getElementById("menuimg21").src = "images/icon_tools_onhover.png";
+            document.getElementById("menuimg22").src = "images/down_arrow_white.png";
+        }
+
+        function OnNoHover2()
+        {
+            document.getElementById("menuimg21").src = "images/icon_tools.png";
+            document.getElementById("menuimg22").src = "images/down_arrow_blue.png";
+        }
+        function OnHover3()
+        {
+           document.getElementById("menuimg31").src = "images/icon_promotion_onhover.png";
+            document.getElementById("menuimg32").src = "images/down_arrow_white.png";
+        }
+
+        function OnNoHover3()
+        {
+            document.getElementById("menuimg31").src = "images/icon_promotion.png";
+            document.getElementById("menuimg32").src = "images/down_arrow_blue.png";
+        }
+        function OnHover4()
+        {
+           document.getElementById("menuimg41").src = "images/icon_report_onhover.png";
+            document.getElementById("menuimg42").src = "images/down_arrow_white.png";
+        }
+
+        function OnNoHover4()
+        {
+            document.getElementById("menuimg41").src = "images/icon_report.png";
+            document.getElementById("menuimg42").src = "images/down_arrow_blue.png";
+        }
+
+
+</script>
 </head>
 <body>
     <div class="FullPage">
@@ -31,55 +79,96 @@
         </div>
         <div class="navbar">
         <div class="NavigationBar">
-            <div class="NavigationBar-Menu1" id="div1">
+            <div class="NavigationBar-Menu1" onmouseover="OnHover1()" onmouseout="OnNoHover1()">
                 <div class="NavigationBar-Menu1-image1">
-                    <img src="images/icon_centralinstance.png" alt="none">
+                    <img id="menuimg11" src="images/icon_centralinstance.png" alt="none">
                 </div>
                 <div class="NavigationBar-Menu1-text">
                     Central Instance
                 </div>
                 <div class="NavigationBar-Menu1-image2">
-                    <img src="images/down_arrow_blue.png" alt="none">
+                    <img id="menuimg12" src="images/down_arrow_blue.png" alt="none">
                 </div>
             </div>
 
-            <div class="NavigationBar-Menu1">
+            <div class="NavigationBar-Menu1" onmouseover="OnHover2()" onmouseout="OnNoHover2()">
                 <div class="NavigationBar-Menu1-image1">
-                    <img src="images/icon_tools.png" alt="none">
+                    <img id="menuimg21" src="images/icon_tools.png" alt="none">
                 </div>
                 <div class="NavigationBar-Menu1-text">
                     Tools
                 </div>
                 <div class="NavigationBar-Menu1-image2">
-                    <img src="images/down_arrow_blue.png" alt="none">
+                    <img id="menuimg22" src="images/down_arrow_blue.png" alt="none">
                 </div>
             </div>
 
-            <div class="NavigationBar-Menu1">
+            <div class="NavigationBar-Menu1" onmouseover="OnHover3()" onmouseout="OnNoHover3()">
                 <div class="NavigationBar-Menu1-image1">
-                    <img src="images/icon_promotion.png" alt="none">
+                    <img id="menuimg31" src="images/icon_promotion.png" alt="none">
                 </div>
                 <div class="NavigationBar-Menu1-text">
                     Promotions
                 </div>
                 <div class="NavigationBar-Menu1-image2">
-                    <img src="images/down_arrow_blue.png" alt="none">
+                    <img id="menuimg32" src="images/down_arrow_blue.png" alt="none">
                 </div>
             </div>
 
-            <div class="NavigationBar-Menu1">
+            <div class="NavigationBar-Menu1" onmouseover="OnHover4()" onmouseout="OnNoHover4()">
                 <div class="NavigationBar-Menu1-image1">
-                    <img src="images/icon_report.png" alt="none">
+                    <img id="menuimg41" src="images/icon_report.png" alt="none">
                 </div>
                 <div class="NavigationBar-Menu1-text">
                     Reports
                 </div>
                 <div class="NavigationBar-Menu1-image2">
-                    <img src="images/down_arrow_blue.png" alt="none">
+                    <img id="menuimg42" src="images/down_arrow_blue.png" alt="none">
                 </div>
             </div>
 
         </div>
+        </div>
+        <div class="BodyContent">
+        <div class="BodyContent-Title">
+            Organisation Setup
+        </div>
+        <div class="BodyContent-Lower">
+                <div class="BodyContent-Lower-Content">
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                </div>
+                <div class="BodyContent-Lower-Content">
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                </div>
+                <div class="BodyContent-Lower-Content">
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                </div>
+                <div class="BodyContent-Lower-Content">
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                    <div>a</div>
+                </div>
+        </div>
+
+
         </div>
 
 

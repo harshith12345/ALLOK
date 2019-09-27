@@ -139,3 +139,34 @@ body {
     padding-right: 20px;
 }
 
+.BodyContent
+{
+    margin-top: 10px;
+    background-color: white;
+    width: 960px;
+}
+.BodyContent-Title
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    color: #ea8922;
+    border-bottom:1px solid #e2e6ef;
+
+}
+.BodyContent-Lower
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.BodyContent-Lower-Content
+{
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    border-right: 1px solid #e2e6ef;
+}
