@@ -257,3 +257,56 @@ body {
     width: 960px;
     margin-top: 15px;
 }
+.BodyContentLower2
+{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.LeftMenu
+{
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    height: auto;
+    width: auto;
+
+}
+#Bodycontent
+{
+    height: 500px;
+}
+
+.leftButton
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:#333333;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 40px;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+.img
+{
+    padding-left: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.leftText
+{
+    padding-left: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#img1
+{
+
+}
