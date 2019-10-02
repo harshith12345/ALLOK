@@ -49,9 +49,37 @@
             document.getElementById("menuimg42").src = "images/down_arrow_blue.png";
         }
 
-        function changeimg1()
+        function changeimg11()
         {
             document.getElementById("img1").src = "images/format_sml_act.png";
+        }
+        function changeimg12()
+        {
+            document.getElementById("img1").src = "images/format_sml.png";
+        }
+        function changeimg21()
+        {
+            document.getElementById("img2").src = "images/region_sml_act.png";
+        }
+        function changeimg22()
+        {
+            document.getElementById("img2").src = "images/region_sml.png";
+        }
+        function changeimg31()
+        {
+            document.getElementById("img3").src = "images/city_sml_act.png";
+        }
+        function changeimg32()
+        {
+            document.getElementById("img3").src = "images/city_sml.png";
+        }
+        function changeimg41()
+        {
+            document.getElementById("img4").src = "images/store_sml_act.png";
+        }
+        function changeimg42()
+        {
+            document.getElementById("img4").src = "images/store_sml.png";
         }
 
 
@@ -140,19 +168,19 @@
         </div>
             <div class="BodyContentLower2">
                 <div class="LeftMenu">
-                    <div class="leftButton">
-                       <div class="img"><img id="img1" src="images/format_sml.png" alt="none" ></div>
+                    <div class="leftButton" onmouseover="changeimg11()" onmouseout="changeimg12()" >
+                       <div class="img"><img id="img1" src="images/format_sml.png" alt="none"></div>
                         <div class="leftText">Format</div>
                     </div>
-                    <div class="leftButton">
+                    <div class="leftButton" onmouseover="changeimg21()" onmouseout="changeimg22()">
                        <div class="img"><img id="img2" src="images/region_sml.png" alt="none"></div>
                         <div class="leftText">Region</div>
                     </div>
-                    <div class="leftButton">
+                    <div class="leftButton" onmouseover="changeimg31()" onmouseout="changeimg32()">
                        <div class="img"><img id="img3" src="images/city_sml.png" alt="none"></div>
                         <div class="leftText">City</div>
                     </div>
-                    <div class="leftButton">
+                    <div class="leftButton" onmouseover="changeimg41()" onmouseout="changeimg42()">
                        <div class="img"><img id="img4" src="images/store_sml.png" alt="none"></div>
                         <div class="leftText">Store</div>
                     </div>
