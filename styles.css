@@ -415,6 +415,15 @@ body {
 #submit
 {
     text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    background-color: #3d85c6;
+    padding-top: 10px;
+    text-align: center;
+    height: 20px;
+    align-self: center;
 }
 
 .BottomButtons1:hover
@@ -444,4 +453,17 @@ body {
     background-color: #e2e6ef;
     border-bottom: 2px solid #e5e5e5;
 
+}
+
+#Active
+{
+    font-family: "Myriad-Pro";
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #3d85c6;
+    padding-top: 10px;
+}
+#Create
+{
+    border-bottom: 2px solid #ea8922;
 }
