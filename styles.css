@@ -1,3 +1,9 @@
+@font-face
+{
+    font-family:MyriadPro;
+    src:url("MyriadPro-Bold.otf")
+}
+
 body {
   background-color: #262d40;
   border-top: 3px solid #ea8922;
@@ -17,7 +23,7 @@ body {
 }
 .Header
 {
-    height: 86px;
+    height: 96px;
 
 
 }
@@ -30,7 +36,8 @@ body {
     float: right;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    margin-right: 20px;
+    height: 96px;
 
 }
 .Header-RightMenu-Top-1
@@ -71,9 +78,10 @@ body {
 .Header-RightMenu-Bottom
 {
     grid-column: 1 / span 2;
-    margin-bottom: 20px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
+    align-content: flex-end;
+    margin-bottom: 20px;
 
 }
 .Header-RightMenu-Bottom-Name
@@ -99,26 +107,35 @@ body {
     column-width: 20px;
     float: left;
 }
+
+@font-face{
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
 .NavigationBar-Menu1
 {
     display: grid;
     grid-template-columns: auto auto auto;
     padding-top: 10px;
     border-right:2px solid #f1f3f7;
+    font-family:MyriadPro;
+    font-size: 14px;
+    color: #1b3f75;
 
 }
 
 .NavigationBar-Menu1:default
 {
-    font-family: "Myriad-Pro";
+    font-family:MyriadPro;
     font-size: 14px;
     color: #1b3f75;
     padding-top: 10px;
 }
 .NavigationBar-Menu1:hover
 {
-    font-family: "Myriad-Pro";
-    font-size: 16px;
+    font-family:MyriadPro;
+    font-size: 14px;
     color: #ffffff;
     background-color: #3d85c6;
     padding-top: 10px;
@@ -270,7 +287,6 @@ body {
     margin-right: 20px;
     margin-top: 20px;
     text-align: center;
-    background-color: #f0f0f0;
     height: fit-content;
     width: auto;
 
@@ -280,7 +296,33 @@ body {
     height: 500px;
 }
 
-.leftButton
+.leftButton1
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:#333333;
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 40px;
+    border-bottom: 2px solid #e5e5e5;
+    background-color: #f0f0f0;
+
+}
+
+.leftButton2
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:#3d85c6;
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 40px;
+    background-color: #e2e6ef;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+
+.leftButton3
 {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
@@ -291,6 +333,7 @@ body {
     border-bottom: 2px solid #e5e5e5;
 
 }
+
 .img
 {
     padding-left: 20px;
@@ -442,7 +485,33 @@ body {
 {
     border-bottom: 2px solid #ea8922;
 }
-.leftButton:hover
+.leftButton1:hover
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:#3d85c6;
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 40px;
+    background-color: #e2e6ef;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+
+.leftButton2:hover
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    color:#3d85c6;
+    display: grid;
+    grid-template-columns: 50px auto;
+    height: 40px;
+    background-color: #e2e6ef;
+    border-bottom: 2px solid #e5e5e5;
+
+}
+
+.leftButton3:hover
 {
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
@@ -457,8 +526,8 @@ body {
 
 #Active
 {
-    font-family: "Myriad-Pro";
-    font-size: 16px;
+    font-family: MyriadPro;
+    font-size: 14px;
     color: #ffffff;
     background-color: #3d85c6;
     padding-top: 10px;
